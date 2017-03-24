@@ -178,6 +178,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1636053297 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1776996362171798, guid: 0742db87c24a142f6ba98206a7c04461,
+    type: 2}
+  m_PrefabInternal: {fileID: 1969378230}
 --- !u!1001 &1969378230
 Prefab:
   m_ObjectHideFlags: 0
@@ -216,6 +221,40 @@ Prefab:
     - target: {fileID: 4402955198500448, guid: 0742db87c24a142f6ba98206a7c04461, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212673558898449058, guid: 0742db87c24a142f6ba98206a7c04461,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212673558898449058, guid: 0742db87c24a142f6ba98206a7c04461,
+        type: 2}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402955198500448, guid: 0742db87c24a142f6ba98206a7c04461, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402955198500448, guid: 0742db87c24a142f6ba98206a7c04461, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114623660718023248, guid: 0742db87c24a142f6ba98206a7c04461,
+        type: 2}
+      propertyPath: bulletSpawn
+      value: 
+      objectReference: {fileID: 1636053297}
+    - target: {fileID: 114623660718023248, guid: 0742db87c24a142f6ba98206a7c04461,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1142221191998866, guid: a42c98c4fbf58402495bea9e49b09b11,
+        type: 2}
+    - target: {fileID: 114623660718023248, guid: 0742db87c24a142f6ba98206a7c04461,
+        type: 2}
+      propertyPath: bulletSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0742db87c24a142f6ba98206a7c04461, type: 2}
