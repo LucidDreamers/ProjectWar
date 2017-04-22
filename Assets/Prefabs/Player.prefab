@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50803192781735932}
   - component: {fileID: 114623660718023248}
   - component: {fileID: 60864429677528674}
+  - component: {fileID: 114135911108727290}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -67,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1681148028160662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 1, z: 0}
+  m_LocalPosition: {x: 0.45, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4402955198500448}
@@ -95,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1776996362171798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 1, z: 0}
+  m_LocalPosition: {x: -0.45, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4402955198500448}
@@ -174,6 +175,19 @@ PolygonCollider2D:
       - {x: -1.04, y: -0.74}
       - {x: -0.66999996, y: -0.47}
       - {x: -0.52, y: -0.38}
+--- !u!114 &114135911108727290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653224842741034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcb24243448849ae841ab391c9efd90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  bulletSpeed: 20
 --- !u!114 &114623660718023248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -185,8 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f02c6bd9c6f54f33956eefca27f49f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  bulletSpeed: 25
   bulletPrefab: {fileID: 1142221191998866, guid: a42c98c4fbf58402495bea9e49b09b11,
     type: 2}
   bulletSpawn1: {fileID: 1776996362171798}
