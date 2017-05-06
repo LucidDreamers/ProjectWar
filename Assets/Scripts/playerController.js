@@ -54,7 +54,7 @@ function Update () {
 	var direction = Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 	rb.AddForce(direction * stats.speed, ForceMode2D.Force);
 
-	if(Input.GetButton("Fire1") && gos.length < stats.bulletLimit && allowFire){
+	if(Input.GetButton("Fire1") && (gos.length < stats.bulletLimit || stats.bulletLimit == -1) && allowFire){
 		Fire();
 
 	}
@@ -85,6 +85,6 @@ function Fire (){
 		Destroy(bullet, 2.0f);
 		toggle = 1;
 	}
-	yield WaitForSeconds(stats.fireRate);
+	yield WaitForSeconds(stats.fireRate / 1000);
 	allowFire = true;
 }
