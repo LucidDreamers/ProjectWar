@@ -10,7 +10,7 @@ private var rb : Rigidbody2D;
 
 function start(){
   /*stats = new enemyStats(health, damage);*/
-  player = GameObject.FindGameObjectWithTag("Player");
+  player = GameObject.FindWithTag("Player");
 
   rb = GetComponent(Rigidbody2D);
 }
