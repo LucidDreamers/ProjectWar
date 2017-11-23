@@ -1,12 +1,17 @@
 #pragma strict
 
+import UnityEditor.SceneManagement;
+
 public var player : GameObject;
 public var enemy : GameObject;
+public var ui : GameObject;
 
 private var enemySpawnTimer = 180;
 
 function Start(){
   Instantiate(player);
+  ui.FindWithTag("Pause").SetActive(false);
+
 }
 
 function Update(){
@@ -16,9 +21,8 @@ function Update(){
     Instantiate(enemy);
     enemySpawnTimer = 180;
   }
-
-}
-
-function destroyEnemy(enemy : GameObject){
-
+  //TODO: Listen for Gamepad Input as well
+  if(Input.GetKeyUp(KeyCode.Escape)){
+    ui.GetComponent(UIController).togglePauseMenu();
+  }
 }
