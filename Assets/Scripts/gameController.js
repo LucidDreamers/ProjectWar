@@ -14,6 +14,11 @@ function Update(){
 
   if(enemySpawnTimer == 0){
     Instantiate(enemy);
-    /*enemySpawnTimer = 180;*/
+    enemySpawnTimer = 180;
   }
+
+}
+
+function destroyEnemy(enemy : GameObject){
+
 }
