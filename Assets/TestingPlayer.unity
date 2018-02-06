@@ -481,6 +481,51 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1479236557}
+    - target: {fileID: 223855262580726012, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223855262580726012, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 223855262580726012, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_PlaneDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224439889405956650, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 357.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224439889405956650, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 383.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224390624308384204, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: 224634569134181686, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -59
+      objectReference: {fileID: 0}
+    - target: {fileID: 224650494120603396, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224970418445954152, guid: 4cdd8e8d03f740744bc53de39ec77b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 72
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cdd8e8d03f740744bc53de39ec77b16, type: 2}
   m_IsPrefabParent: 0

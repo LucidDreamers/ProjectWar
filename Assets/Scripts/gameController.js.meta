@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: e6072ff9f60dd4b10aebd7ed2d78caed
-timeCreated: 1494169890
+timeCreated: 1517883561
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - ui: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

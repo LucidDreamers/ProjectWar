@@ -1,6 +1,5 @@
 #pragma strict
 
-public class SquareEnemyController extends EnemyController{
   public var health = 10f;
   public var damage = 5f;
   public var moveSpeed = 2.5f;
@@ -43,4 +42,3 @@ public class SquareEnemyController extends EnemyController{
       rb.AddForce(dir * moveSpeed * Time.deltaTime, ForceMode2D.Impulse);
     }
   }
-}

@@ -1,6 +1,5 @@
 ﻿#pragma strict
 
-class PlayerController extends MonoBehaviour{
 	public var bulletPrefab : GameObject;
 	public var bulletSpawn1 : GameObject;
 	public var bulletSpawn2 : GameObject;
@@ -93,5 +92,3 @@ class PlayerController extends MonoBehaviour{
 		yield WaitForSeconds(stats.fireRate / 1000);
 		allowFire = true;
 	}
-
-}

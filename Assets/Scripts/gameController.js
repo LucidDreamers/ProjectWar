@@ -2,6 +2,7 @@
 
 import UnityEditor.SceneManagement;
 
+
 public var player : GameObject;
 public var enemy : GameObject;
 public var ui : GameObject;
@@ -11,7 +12,7 @@ private var enemySpawnTimer = 180;
 function Start(){
   Instantiate(player);
   ui.FindWithTag("Pause").SetActive(false);
-
+  Time.timeScale = 1f;
 }
 
 function Update(){
