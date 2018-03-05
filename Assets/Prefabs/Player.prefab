@@ -81,8 +81,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653224842741034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13, y: 13, z: 1}
   m_Children:
   - {fileID: 4750010135386824}
   - {fileID: 4397661499967490}
@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dcb24243448849ae841ab391c9efd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
-  bulletSpeed: 100
+  speed: 3000
+  bulletSpeed: 2000
   health: 10
   bulletDamage: 5
   bulletLimit: -1
